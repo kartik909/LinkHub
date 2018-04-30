@@ -1,0 +1,14 @@
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\BLL.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\BLL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\BOL.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\DAL.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\BOL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\DAL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\kartik909\source\repos\Project\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\kartik909\source\repos\Project\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\kartik909\source\repos\Project\BLL\obj\Debug\BLL.dll
+C:\Users\kartik909\source\repos\Project\BLL\obj\Debug\BLL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\EntityFramework.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\BOL.dll.config
+C:\Users\kartik909\source\repos\Project\BLL\bin\Debug\EntityFramework.xml
