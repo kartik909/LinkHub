@@ -1,6 +1,5 @@
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\BOL.dll
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\BOL.pdb
-C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.dll
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.pdb

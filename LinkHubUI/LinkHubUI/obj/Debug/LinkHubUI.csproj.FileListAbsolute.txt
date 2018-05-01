@@ -76,3 +76,5 @@ C:\Users\kartik909\source\repos\Project\LinkHubUI\LinkHubUI\obj\Debug\LinkHubUI.
 C:\Users\kartik909\source\repos\Project\LinkHubUI\LinkHubUI\bin\EntityFramework.dll
 C:\Users\kartik909\source\repos\Project\LinkHubUI\LinkHubUI\bin\BOL.dll.config
 C:\Users\kartik909\source\repos\Project\LinkHubUI\LinkHubUI\bin\EntityFramework.xml
+C:\Users\kartik909\source\repos\Project\LinkHubUI\LinkHubUI\bin\EntityFramework.SqlServer.dll
+C:\Users\kartik909\source\repos\Project\LinkHubUI\LinkHubUI\bin\EntityFramework.SqlServer.xml
