@@ -16,10 +16,87 @@ namespace LinkHubUI.Areas.Common.Controllers
             objBs = new UrlBs();
         }
         // GET: Common/BrowseURL
-        public ActionResult Index()
+        public ActionResult Index(string SortOrder, string SortBy)
         {
-            var Urls = objBs.GetALL().Where(x=>x.IsApproved == "A").ToList();  
-            return View(Urls);
+            ViewBag.SortOrder = SortOrder;
+            ViewBag.SortBy = SortBy;
+
+            var Urls = objBs.GetALL().Where(x=>x.IsApproved == "A");
+
+            switch (SortBy)
+            {
+
+                case "UrlTitle":
+
+                    switch (SortOrder)
+                    {
+                        case "Asc":
+                            Urls = Urls.OrderBy(x => x.UrlTitle).ToList();
+                            break;
+
+                        case "Desc":
+                            Urls = Urls.OrderByDescending(x => x.UrlTitle).ToList();
+                            break;
+
+                        default:
+                            break;
+                    }
+                    break;
+
+                case "Url":
+
+                    switch (SortOrder)
+                    {
+                        case "Asc":
+                            Urls = Urls.OrderBy(x => x.Url).ToList();
+                            break;
+
+                        case "Desc":
+                            Urls = Urls.OrderByDescending(x => x.Url).ToList();
+                            break;
+
+                        default:
+                            break;
+                    }
+                    break;
+                case "UrlDesc":
+
+                    switch (SortOrder)
+                    {
+                        case "Asc":
+                            Urls = Urls.OrderBy(x => x.UrlDesc).ToList();
+                            break;
+
+                        case "Desc":
+                            Urls = Urls.OrderByDescending(x => x.UrlDesc).ToList();
+                            break;
+
+                        default:
+                            break;
+                    }
+                    break;
+                case "CategoryName":
+
+                    switch (SortOrder)
+                    {
+                        case "Asc":
+                            Urls = Urls.OrderBy(x => x.tbl_Category.CategoryName).ToList();
+                            break;
+
+                        case "Desc":
+                            Urls = Urls.OrderByDescending(x => x.tbl_Category.CategoryName).ToList();
+                            break;
+
+                        default:
+                            break;
+                    }
+                    break;
+                default:
+                    Urls = Urls.OrderBy(x => x.UrlTitle).ToList();
+                    break;
+}
+                    return View(Urls);
         }
     }
+    
 }
