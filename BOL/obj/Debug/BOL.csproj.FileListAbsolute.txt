@@ -1,11 +1,11 @@
+C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\BOL.dll.config
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\BOL.dll
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\BOL.pdb
-C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
-C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.dll
-C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.pdb
-C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\BOL.dll.config
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\EntityFramework.dll
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\EntityFramework.xml
 C:\Users\kartik909\source\repos\Project\BOL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csproj.CopyComplete
+C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.dll
+C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.pdb
