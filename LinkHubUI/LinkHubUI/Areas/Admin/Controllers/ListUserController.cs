@@ -10,11 +10,11 @@ namespace LinkHubUI.Areas.Admin.Controllers
 {
     public class ListUserController : Controller
     {
-        private UserBs obj;
+        private AdminBs obj;
 
         public ListUserController()
         {
-            obj = new UserBs();
+            obj = new AdminBs();
         }
 
 
@@ -23,7 +23,7 @@ namespace LinkHubUI.Areas.Admin.Controllers
         {
             ViewBag.SortOrder = SortOrder;
             ViewBag.SortBy = SortBy;
-            var users = obj.GetALL();
+            var users = obj.userBs.GetALL();
 
             switch(SortBy)
             {

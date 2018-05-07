@@ -9,18 +9,18 @@ namespace LinkHubUI.Areas.Admin.Controllers
 {
     public class ListCategoryController : Controller
     {
-        CategoryBs obj;
+        private AdminBs obj;
 
         public ListCategoryController()
         {
-            obj = new CategoryBs();
+            obj = new AdminBs();
         }
         // GET: Admin/ListCategory
         public ActionResult Index(string SortOrder, string SortBy)
         {
             ViewBag.SortOrder = SortOrder;
             ViewBag.SortBy = SortBy;
-            var categories = obj.GetALL();
+            var categories = obj.categoryBs.GetALL();
 
             switch (SortBy)
             {
@@ -28,10 +28,10 @@ namespace LinkHubUI.Areas.Admin.Controllers
                     switch (SortOrder)
                     {
                         case "Asc":
-                            categories = obj.GetALL().OrderBy(x => x.CategoryName).ToList();
+                            categories = obj.categoryBs.GetALL().OrderBy(x => x.CategoryName).ToList();
                             break;
                         case "Desc":
-                            categories = obj.GetALL().OrderByDescending(x => x.CategoryName).ToList();
+                            categories = obj.categoryBs.GetALL().OrderByDescending(x => x.CategoryName).ToList();
                             break;
                         default:
                             break;
@@ -41,13 +41,13 @@ namespace LinkHubUI.Areas.Admin.Controllers
                     switch (SortOrder)
                     {
                         case "Asc":
-                            categories = obj.GetALL().OrderBy(x => x.CategoryDesc).ToList();
+                            categories = obj.categoryBs.GetALL().OrderBy(x => x.CategoryDesc).ToList();
                             break;
                         case "Desc":
-                            categories = obj.GetALL().OrderByDescending(x => x.CategoryDesc).ToList();
+                            categories = obj.categoryBs.GetALL().OrderByDescending(x => x.CategoryDesc).ToList();
                             break;
                         default:
-                            obj.GetALL();
+                            obj.categoryBs.GetALL();
                             break;
                     }
                     break;
@@ -61,7 +61,7 @@ namespace LinkHubUI.Areas.Admin.Controllers
         {
             try {
                 TempData["Msg"] = "Deleted Successfully";
-                obj.Delete(Id);
+                obj.categoryBs.Delete(Id);
                 return RedirectToAction("Index");
             }
             catch (Exception e1) {

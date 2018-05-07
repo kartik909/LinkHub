@@ -10,11 +10,11 @@ namespace LinkHubUI.Areas.Admin.Controllers
 {
     public class CategoryController : Controller
     {
-        private CategoryBs obj;
+        private AdminBs obj;
 
         public CategoryController()
         {
-            obj = new CategoryBs();
+            obj = new AdminBs();
         }
         // GET: Admin/Category
         public ActionResult Index()
@@ -30,7 +30,7 @@ namespace LinkHubUI.Areas.Admin.Controllers
                 if (ModelState.IsValid)
                 {
 
-                    obj.Insert(category);
+                    obj.categoryBs.Insert(category);
                     TempData["Msg"] = "Created Succesfully";
                     return RedirectToAction("Index");
                 }
