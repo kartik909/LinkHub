@@ -7,14 +7,9 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.Common.Controllers
 {
-    public class BrowseURLsController : Controller
+    public class BrowseURLsController : BaseCommonController
     {
-        private CommonBs objBs;
-
-        public BrowseURLsController()
-        {
-            objBs = new CommonBs();
-        }
+       
         // GET: Common/BrowseURL
         public ActionResult Index(string SortOrder, string SortBy, string Page)
         {

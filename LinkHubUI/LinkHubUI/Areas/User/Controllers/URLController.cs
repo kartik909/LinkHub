@@ -8,17 +8,8 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.User.Controllers
 {
-    public class URLController : Controller
-    {
-        private UserAreaBs objBs;
-       
-        public URLController()
-        {
-            objBs = new UserAreaBs();
-           
-
-        }
-
+    public class URLController : BaseUserController
+    {       
         // GET: User/URL
         public ActionResult Index()
         {

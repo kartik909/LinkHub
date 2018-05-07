@@ -7,14 +7,9 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.Admin.Controllers
 {
-    public class ListCategoryController : Controller
+    public class ListCategoryController : BaseAdminController
     {
-        private AdminBs obj;
-
-        public ListCategoryController()
-        {
-            obj = new AdminBs();
-        }
+       
         // GET: Admin/ListCategory
         public ActionResult Index(string SortOrder, string SortBy)
         {

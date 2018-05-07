@@ -8,16 +8,8 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.Admin.Controllers
 {
-    public class ListUserController : Controller
+    public class ListUserController : BaseAdminController
     {
-        private AdminBs obj;
-
-        public ListUserController()
-        {
-            obj = new AdminBs();
-        }
-
-
         // GET: Admin/ListUser
         public ActionResult Index(string SortOrder, string SortBy)
         {

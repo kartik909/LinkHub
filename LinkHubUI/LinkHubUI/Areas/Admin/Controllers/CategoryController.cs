@@ -8,14 +8,9 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.Admin.Controllers
 {
-    public class CategoryController : Controller
+    public class CategoryController : BaseAdminController
     {
-        private AdminBs obj;
-
-        public CategoryController()
-        {
-            obj = new AdminBs();
-        }
+        
         // GET: Admin/Category
         public ActionResult Index()
         {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace LinkHubUI.Areas.Common.Controllers
+namespace LinkHubUI.Areas.Security.Controllers
 {
-    public class HomeController : BaseCommonController
+    public class BaseSecurityController : Controller
     {
        
     }
