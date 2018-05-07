@@ -9,4 +9,3 @@ C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csproj.CoreCompileInpu
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csproj.CopyComplete
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.dll
 C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.pdb
-C:\Users\kartik909\source\repos\Project\BOL\obj\Debug\BOL.csprojResolveAssemblyReference.cache

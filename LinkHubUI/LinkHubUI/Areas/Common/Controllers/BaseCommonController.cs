@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.Common.Controllers
 {
+   
     public class BaseCommonController : Controller
     {
         protected CommonBs objBs;

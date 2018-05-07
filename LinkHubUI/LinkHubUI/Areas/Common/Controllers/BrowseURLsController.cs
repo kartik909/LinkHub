@@ -7,10 +7,12 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.Common.Controllers
 {
+    [AllowAnonymous]
     public class BrowseURLsController : BaseCommonController
     {
        
         // GET: Common/BrowseURL
+        [HttpGet]
         public ActionResult Index(string SortOrder, string SortBy, string Page)
         {
             ViewBag.SortOrder = SortOrder;
