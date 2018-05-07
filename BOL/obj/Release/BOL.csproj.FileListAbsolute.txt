@@ -1,0 +1,12 @@
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\BOL.dll.config
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\BOL.dll
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\BOL.pdb
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\EntityFramework.dll
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\EntityFramework.xml
+C:\Users\kartik909\source\repos\Project\BOL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\kartik909\source\repos\Project\BOL\obj\Release\BOL.csprojResolveAssemblyReference.cache
+C:\Users\kartik909\source\repos\Project\BOL\obj\Release\BOL.csproj.CoreCompileInputs.cache
+C:\Users\kartik909\source\repos\Project\BOL\obj\Release\BOL.csproj.CopyComplete
+C:\Users\kartik909\source\repos\Project\BOL\obj\Release\BOL.dll
+C:\Users\kartik909\source\repos\Project\BOL\obj\Release\BOL.pdb

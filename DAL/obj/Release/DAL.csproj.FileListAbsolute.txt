@@ -1,0 +1,12 @@
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\DAL.dll
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\DAL.pdb
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\BOL.dll
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\EntityFramework.dll
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\BOL.pdb
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\BOL.dll.config
+C:\Users\kartik909\source\repos\Project\DAL\bin\Release\EntityFramework.xml
+C:\Users\kartik909\source\repos\Project\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\kartik909\source\repos\Project\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\kartik909\source\repos\Project\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\kartik909\source\repos\Project\DAL\obj\Release\DAL.dll
+C:\Users\kartik909\source\repos\Project\DAL\obj\Release\DAL.pdb

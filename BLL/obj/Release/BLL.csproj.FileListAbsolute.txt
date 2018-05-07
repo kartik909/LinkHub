@@ -1,0 +1,14 @@
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\BLL.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\BLL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\BOL.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\DAL.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\EntityFramework.dll
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\BOL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\BOL.dll.config
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\DAL.pdb
+C:\Users\kartik909\source\repos\Project\BLL\bin\Release\EntityFramework.xml
+C:\Users\kartik909\source\repos\Project\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\kartik909\source\repos\Project\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\kartik909\source\repos\Project\BLL\obj\Release\BLL.csproj.CopyComplete
+C:\Users\kartik909\source\repos\Project\BLL\obj\Release\BLL.dll
+C:\Users\kartik909\source\repos\Project\BLL\obj\Release\BLL.pdb
