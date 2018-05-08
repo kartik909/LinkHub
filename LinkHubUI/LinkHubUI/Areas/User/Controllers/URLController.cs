@@ -8,6 +8,7 @@ using System.Web.Mvc;
 
 namespace LinkHubUI.Areas.User.Controllers
 {
+    [Authorize(Roles ="A,U")]
     public class URLController : BaseUserController
     {       
         // GET: User/URL
@@ -15,31 +16,21 @@ namespace LinkHubUI.Areas.User.Controllers
         {
 
             ViewBag.CategoryId = new SelectList(objBs.categoryBs.GetALL().ToList(), "CategoryId", "CategoryName");
-            ViewBag.UserId = new SelectList(objBs.userBs.GetALL().ToList(), "UserId", "UserEmail");
             return View();
         }
 
-
         // POST: User/URL
         [HttpPost]
-        public ActionResult Create(tbl_Url myurl)
+        public ActionResult Create(tbl_Url myUrl)
         {
             try
             {
-                if (ModelState.IsValid)
-                {
-                    objBs.urlBs.Insert(myurl);
+                myUrl.IsApproved = "P";
+                myUrl.UserId = objBs.userBs.GetALL().Where(x => x.UserEmail == User.Identity.Name).FirstOrDefault().UserId;
+                
+                    objBs.urlBs.Insert(myUrl);
                     TempData["Msg"] = "Created Successfully";
-                    return RedirectToAction("Index");
-                }
-
-                else
-                {
-                    ViewBag.CategoryId = new SelectList(objBs.categoryBs.GetALL().ToList(), "CategoryId", "CategoryName");
-                    ViewBag.UserId = new SelectList(objBs.userBs.GetALL().ToList(), "UserId", "UserEmail");
-                    return RedirectToAction("Index");
-                }
-
+                    return RedirectToAction("Index");                              
             }
             catch (Exception e1)
             {
