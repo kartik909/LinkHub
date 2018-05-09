@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <script src="~/Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
@@ -22,7 +23,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", new { Controller = "Home", area = "Common" }) </li>
-                    <li>@Html.ActionLink("Register", "Index", new { Controller = "Register", area = "Security" })</li>
+
                     <li>@Html.ActionLink("browseURLs", "Index", new { Controller = "BrowseURLs", area = "Common" })</li>
 
                     @if (User.Identity.IsAuthenticated)
@@ -44,6 +45,7 @@ if (User.IsInRole("A") || User.IsInRole("U"))
 }
 else
 {
+                <li>@Html.ActionLink("Register", "Index", new { Controller = "Register", area = "Security" })</li>
                 <li>@Html.ActionLink("Login", "Index", new { Controller = "Login", area = "Security" })</li>
 }
 
@@ -56,7 +58,11 @@ else
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My LinkHHUB Application</p>
+            <blockquote class="blockquote-reverse">
+                <p>सत्यमेव जयते</p>
+                
+            </blockquote>
+            <p>&copy; @DateTime.Now.Year - My LinkHub Application</p>
         </footer>
     </div>
 
